@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tickets - Vibes Fest</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <h1>Book Your Tickets 🎟️</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tickety pricing.html">Tickets</a></li>
+      <li><a href="schedule.html">Schedule</a></li>
+      </ul>
+  </nav>
+</header>
+<form id="ticketForm" class="ticket-form">
+  <input type="text" id="name" placeholder="Enter your name">
+  <input type="email" id="email" placeholder="Enter your email">
+  <select id="tickets">
+    <option value="">Select Ticket Type</option>
+    <option value="General - ₹799">General</option>
+    <option value="VIP - ₹1499">VIP</option>
+    <option value="Backstage - ₹2999">Backstage Access</option>
+    <option value="Group - ₹3499">Group Booking</option>
+  </select>
+  
+  <button type="submit" id="submitBtn">Book Ticket</button>
+  <button type="button" id="resetBtn">Reset</button>
+</form>
+
+<p id="formResult"></p>
+
+<section class="pricing">
+  <h2>Ticket Categories</h2>
+
+  <div class="price-card">
+    <h3>General</h3>
+    <p>₹799</p>
+  </div>
+
+  <div class="price-card">
+    <h3>VIP</h3>
+    <p>₹1499</p>
+  </div>
+
+  <div class="price-card">
+    <h3>Backstage Access</h3>
+    <p>₹2999</p>
+  </div>
+
+  <div class="price-card">
+    <h3>Group Booking (5 People)</h3>
+    <p>₹3499</p>
+  </div>
+
+</section>
+
+</body>
+</html>

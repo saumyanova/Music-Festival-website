@@ -1,0 +1,156 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff8f3; /* soft warm background */
+}
+
+/* Header */
+header {
+  background: #221309; /* warm brown */
+  color: #ffe9d6;      /* soft cream text */
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #ffe9d6;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  background: url('https://images.unsplash.com/photo-1518972559570-7cc1309f3229') no-repeat center/cover;
+  color: #fff8f3;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.btn {
+  background: #a84d4d; /* warm muted rose */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+/* Sections */
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+footer {
+  background: #221309; /* darker warm brown */
+  color: #ffe9d6;
+  text-align: center;
+  padding: 10px;
+}
+/* Ticket Pricing */
+.pricing {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.pricing-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.price-card {
+  padding: 20px;
+  border-radius: 10px;
+  background: #ffe3d4; /* warm peach */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.price-card:hover {
+  transform: scale(1.05);
+  background: #ffd6c2; /* slightly darker peach */
+}
+
+.price {
+  font-size: 24px;
+  color: #b94747; /* warm brick red */
+  font-weight: bold;
+}
+
+.btn, #submitBtn {
+  display: inline-block;
+  background: #d97373;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn:hover, #submitBtn:hover {
+  background: #e18888;
+  transform: scale(1.08);
+}
+
+/* Schedule Page */
+.schedule {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.schedule-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.slot {
+  background: #fff1e6; /* warm off-white */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.slot:hover {
+  transform: scale(1.05);
+  background: #ffe5d2; /* warm peachy hover */
+}
+
+/* Header layout */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* Remove bullet points */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Horizontal items */
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Menu links */
+nav ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #ffe9d6; /* soft cream */
+}
+
+nav ul li a:hover {
+    color: #ffbfa3; /* warm peach hover */
+}
