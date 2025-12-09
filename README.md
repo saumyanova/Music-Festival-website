@@ -1,2 +1,1 @@
-# Music-Festival-website
-just a website to use book tickets for concerts, dj night extras 
+This project is a Music Festival Booking Website designed to provide users with an easy and interactive way to explore music events and book tickets online. The website includes event listings, genre filters, a booking modal, and a cart system—making the entire ticket-booking experience smooth and user-friendly. It is built using HTML, CSS, and JavaScript, focusing on a clean layout, responsive design, and simple functionality suitable for beginners and academic projects.
